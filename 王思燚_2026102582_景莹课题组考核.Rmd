@@ -10,13 +10,45 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### 数据处理
 ```{r download_package}
-
-
+library(readr)
+library(pheatmap)
 
 ```
 
 ```{r load_data}
+df1 <- read_csv("task1_expression_data.csv")
+df2 <- read_csv("task1_expression_data.csv", na = c("", "NA","n/a"))
+```
+```{r clean data}
+
+
 
 
 ```
+
+
+
+用不超过 300 字回答：
+你在处理这份数据时发现了哪些数据的问题？你是如何处理的？
+从 GENE05 的 violin plot 里，你看到了什么 boxplot 看不出来的信息？
+为什么本题 boxplot 要求用对数坐标？不用对数坐标会发生什么情况？什么情况下对数坐标反而会误导读者？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
