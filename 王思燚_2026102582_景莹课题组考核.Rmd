@@ -1,0 +1,22 @@
+---
+title: "王思燚_2026102582_景莹课题组考核"
+output: html_document
+date: "2026-10-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### 数据处理
+```{r download_package}
+
+
+
+```
+
+```{r load_data}
+
+
+```
+
